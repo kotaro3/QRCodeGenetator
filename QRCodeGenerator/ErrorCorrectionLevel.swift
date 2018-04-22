@@ -5,22 +5,9 @@
 
 import Foundation
 
-public enum ErrorCorrection {
-    case L // 7%
-    case M // 15%
-    case Q // 25%
-    case H // 30%
-
-    func level() -> String {
-        switch self {
-        case .L:
-            return "L"
-        case .M:
-            return "M"
-        case .Q:
-            return "Q"
-        case .H:
-            return "H"
-        }
-    }
+public enum ErrorCorrection: String {
+    case L = "L"// 7%
+    case M = "M" // 15%
+    case Q = "Q" // 25%
+    case H = "H" // 30%
 }

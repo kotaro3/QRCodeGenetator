@@ -11,7 +11,6 @@
 		8AFE3872204C3F6A009FD00A /* QRCodeGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE3871204C3F6A009FD00A /* QRCodeGeneratorTests.swift */; };
 		8AFE3874204C3F6B009FD00A /* QRCodeGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AFE3866204C3F6A009FD00A /* QRCodeGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AFE3880204C3F8E009FD00A /* QRCodeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE387D204C3F8E009FD00A /* QRCodeImageView.swift */; };
-		8AFE3881204C3F8E009FD00A /* QRCodeViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE387E204C3F8E009FD00A /* QRCodeViewType.swift */; };
 		8AFE3882204C3F8E009FD00A /* ErrorCorrectionLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFE387F204C3F8E009FD00A /* ErrorCorrectionLevel.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 		8AFE3871204C3F6A009FD00A /* QRCodeGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorTests.swift; sourceTree = "<group>"; };
 		8AFE3873204C3F6A009FD00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8AFE387D204C3F8E009FD00A /* QRCodeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeImageView.swift; sourceTree = "<group>"; };
-		8AFE387E204C3F8E009FD00A /* QRCodeViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeViewType.swift; sourceTree = "<group>"; };
 		8AFE387F204C3F8E009FD00A /* ErrorCorrectionLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorCorrectionLevel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +78,6 @@
 				8AFE3866204C3F6A009FD00A /* QRCodeGenerator.h */,
 				8AFE387F204C3F8E009FD00A /* ErrorCorrectionLevel.swift */,
 				8AFE387D204C3F8E009FD00A /* QRCodeImageView.swift */,
-				8AFE387E204C3F8E009FD00A /* QRCodeViewType.swift */,
 				8AFE3867204C3F6A009FD00A /* Info.plist */,
 			);
 			path = QRCodeGenerator;
@@ -207,7 +204,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8AFE3882204C3F8E009FD00A /* ErrorCorrectionLevel.swift in Sources */,
-				8AFE3881204C3F8E009FD00A /* QRCodeViewType.swift in Sources */,
 				8AFE3880204C3F8E009FD00A /* QRCodeImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
