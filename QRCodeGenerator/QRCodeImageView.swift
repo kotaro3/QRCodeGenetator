@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class QRCodeImageView: UIImageView, QRCodeViewType {
+public class QRCodeImageView: UIImageView {
     
     private var stringData: Data?
     private var errorCorrection: String = ""
@@ -29,7 +29,7 @@ public class QRCodeImageView: UIImageView, QRCodeViewType {
 
     public func generate(withData string: String, encoding: String.Encoding, correctionLevel: ErrorCorrection) {
         self.stringData = string.data(using: encoding)
-        self.errorCorrection = correctionLevel.level()
+        self.errorCorrection = correctionLevel.rawValue
         
         UIGraphicsBeginImageContextWithOptions(self.frame.size, true, 0)
         guard let ctx = UIGraphicsGetCurrentContext() else {
